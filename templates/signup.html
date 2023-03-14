@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="signup">
+        <form action="#" method="post">
+            <h1>Welcome to your worst nightmares !</h1>
+            <p>If you are already a user <a href="/login">login</a></p>
+            <hr>
+            <p>First name :</p>{{form.firstName}} <br>
+            <p>Last name :</p>{{form.lastName}} <br>
+            <p>Username :</p>{{form.username}} <br>
+            <p>Email :</p>{{form.email}} <br>
+            <p>Password :</p>{{form.password}} <br>
+            {{form.submit()}} <br>
+        </form>
+    </div>
+    
+</body>
+</html>

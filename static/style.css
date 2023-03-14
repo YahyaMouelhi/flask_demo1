@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #e3e2e2;
+}
+
+
+/* index.html */
+.intro{
+    position: absolute;
+    width: 75%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #23272a;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 80px;
+}
+
+.intro a{
+    margin-top: 80px ;
+    text-decoration: none;
+    color: rgb(187, 0, 147);
+    font-size: 50px;
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+.intro a:hover{
+    color: rgb(255, 0, 200);
+    border: 1px solid rgb(255, 0, 200);
+}
+
+/* login.html */
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 60%;
+    padding: 42px;
+    border: 1px solid black;
+    border-radius: 14px;
+    box-shadow: 0 0 12px 8px black ;
+    background-color: aliceblue;
+}
+
+.login form{
+    padding: 24px;
+}
+
+.login p{
+    display: inline-block;
+    width: 50%;
+}
+
+
+/* Sign up  */
+
+.signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 60%;
+    padding: 42px;
+    border: 1px solid black;
+    border-radius: 14px;
+    box-shadow: 0 0 12px 8px black ;
+    background-color: aliceblue;
+}
+
+.signup form{
+    padding: 24px;
+}
+
+.signup p{
+    display: inline-block;
+    width: 50%;
+}
+

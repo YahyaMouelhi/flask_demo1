@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pwnophobia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    
+    
+    <div class="intro">
+        <h1>Welcome to <span>Pwnophobia</span></h1>
+        <p>Your best platform for mutual learning for free and with professionals ...</p>
+        {% if logged_in %}
+        <a href="/login">Login</a>
+        <a href="/signup">Sign Up</a>
+        {% endif %}
+    </div>
+    
+
+</body>
+</html>
